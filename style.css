@@ -43,21 +43,37 @@ background-image: url("images/banner4.png");
 /* Our packages */
 .businesses{
     border:none !important;
-    
+    border-radius: 40px !important;
+    margin-top: 30px;
 }
-.rounded-pill{
+.choose-btn{
     transition: 0.5s;
     color:cornflowerblue;
     border:none;
 }
-.rounded-pill:hover{
+.choose-btn:hover{
     background-color:cornflowerblue;
     color:white;
 }
 .head-t-color{
     color:#231D4F;
+    
 }
 .t-color{
     color:#848199;
 }
-
+.specioul-businesses{
+    background-color: #3F87F5 !important;
+    color:white;
+}
+.hots{
+    background-color:#FF4E4E;
+    height:20px;
+    width:40px;
+    top:2px important;
+}
+.hots p{
+    font-size:14px ;
+    padding-top:0px;
+   
+}
