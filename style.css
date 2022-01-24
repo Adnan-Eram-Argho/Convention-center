@@ -18,7 +18,7 @@
 body{
     margin:0;
     padding:0;
-    
+    font-family: 'Poppins', sans-serif;
 }
 .background-img-banner{
     background-image: url("images/banner.png");
@@ -57,10 +57,12 @@ background-image: url("images/banner4.png");
 }
 .head-t-color{
     color:#231D4F;
+    font-family: 'Poppins', sans-serif;
     
 }
 .t-color{
     color:#848199;
+    font-family: 'Poppins', sans-serif;
 }
 .specioul-businesses{
     background-color: #3F87F5 !important;
@@ -80,6 +82,25 @@ background-image: url("images/banner4.png");
 /* frequently asked */
 .ac-btn:not(.collapsed){
     color:black !important;
+}
+
+
+
+
+/* join us */
+
+.join-us-t{
+    background-color: rgba(179, 171, 171, 0.322);
+}
+.text-none{
+    text-decoration: none;
+    color:black;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight:bold;
+}
+
+.text-none:hover{
+    color:tomato;
 }
 
 /* footer */
