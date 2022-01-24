@@ -5,9 +5,37 @@
  font-family: 'Poppins', sans-serif; */
 
 /* fonts */
-
+.button{
+ background-color: #FFFFFF !important;
+ 
+}
+.button a{
+    text-decoration:none;
+    color:#3F87F5;
+    
+}
+/* all time */
 body{
     margin:0;
     padding:0;
     
+}
+.background-img-banner{
+    background-image: url("images/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(73, 72, 72, 0.781);
+    height:584px;
+}
+.no-2-banner{
+    background-image: url("images/banner3.png");
+}
+.no-3-banner{
+background-image: url("images/banner4.png");
+}
+.memorable{
+    color:white;
+    margin-top:350px;
 }
