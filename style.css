@@ -77,3 +77,6 @@ background-image: url("images/banner4.png");
     padding-top:0px;
    
 }
+.ac-btn:not(.collapsed){
+    color:black !important;
+}
